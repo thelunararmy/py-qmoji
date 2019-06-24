@@ -29,7 +29,7 @@ So far I've tested the output on the following apps, exclusively using the deskt
 | Git Markdown  | ✔️               | ✖️                          | n/a            | inside code block |
 | Facebook Post | ✔️               | ✔️                         | 21 x 21         | no border |
 | Reddit Post   | ✔️ (quotation)  | ✔️                         | 21 x 21         | border, dark theme |
-| Tumbler Post  | ✔️              | ✖️                          | n/a            | |
+| Tumblr Post   | ✔️              | ✖️                          | n/a            | |
 
 Tested using [QR Code Scanner](https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner&hl=en) on a Huawei P9-Lite.
 
