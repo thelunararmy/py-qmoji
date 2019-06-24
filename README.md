@@ -35,5 +35,7 @@ There are three clear limitations to using `qmoji` on social media. These are:
 * Max character length
 * Dark background theme
 
-The prodominant factor is the character line width, since it causes the text to wrap onto a new line, there is no clear solution to avoid this. Certain apps have a character length, specificially Twitter and Discord, but can be mitigated at times by pasting the qmoji line by line. Dark theme apps, surprisingly, work *very well* with more room for error but requires a white border around the qmoji, thereby increasing its overall size. Overall it comes down to how the emojis are representing on the platform, miscellaneous factos such as font style, character seperations, and zoom scaling can all play a part in how the qmoji is visually displayed and read.
+The prodominant factor is the character line width -- since exceeding it causes the text to wrap onto a new line; there is no clear solution to avoid this. Certain apps have a message character length, specifically Twitter and Discord, but can be mitigated at times by pasting the qmoji line by line. Surprisingly, dark theme apps work *very well* with more room for error but requires a white border around the qmoji, thereby increasing its overall size. 
+
+Overall it comes down to how the emojis are visually represented on the platform, miscellaneous factors such as font style, character seperations, and zoom scaling can all play a part in how the qmoji is  displayed and read.
 
