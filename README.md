@@ -2,7 +2,7 @@
 A python script that converts strings to QR Code built using Emojis. The output can be copied & pasted into messaging apps and then scanned using a QR Code reader
 
 ## Why? 
-So I cann annoy my friends with QR codes on social media.
+So I can annoy my friends with QR codes on social media.
 
 ## What?
 Requires `python 2.7.x`.
