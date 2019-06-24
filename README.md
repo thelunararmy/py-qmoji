@@ -15,8 +15,15 @@ Edit `main.py` line 29 to change your input. Execute using `python main.py`. Ope
 ## Testing?
 So far I've tested the output on the following apps, exclusively using the desktop/web-browser since phone screens cannot properly display emojis that are at least 21 characters wide.
 
-| Application  | Pastes correctly | Scannable by QR code reader | Max qmoji size  |
-| :--          | :---:            | :---:                       | :---:           |
-| Whatsapp Web | ✔️               | ✔️                          | 21 x 21        |
-| Mattermost   | ✔️               | ✖️                          | n/a             |
-| Discord      | ✖️               | ✖️                          | ? x 10         |
+| Application   | Pastes correctly | Scannable by QR Code Scanner | Max qmoji size  |
+| :--           | :---:            | :---:                        | :---:           |
+| Whatsapp Web  | ✔️               | ✔️                          | 21 x 21        |
+| Mattermost    | ✔️               | ✖️                          | n/a            |
+| Discord       | ✔️ (line by line)| ✔️ (with border)            | 23 x 23        |
+| Telegram      | ✖️               | ✖️                          | n/a            |
+| Twitter       | ✖️               | ✖️                          | n/a            |
+| TwitLonger    | ✔️               | ✖️                          | n/a            |
+| Steam         | ✔️               | ✔️ (with border)            | very large!    |
+
+
+Tested using [QR Code Scanner](https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner&hl=en) on a Huawei P9-Lite.
