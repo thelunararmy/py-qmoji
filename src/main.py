@@ -25,10 +25,8 @@ if __name__ == '__main__':
         )
     
     # Our string to emojifi
-    # Max 25 character to generate less than 21x21 to display on Whatapp 
-    text = "Example Emoji QR Code"
-    if len(text) > 25: 
-        warnings.warn("Input text must be less than 26 characters to display properly on Whatsapp.")    
+    text = "Example Text"
+    print "Text length:", len(text)
     qr.add_data(text)
     qr.make(True)
     
@@ -37,6 +35,9 @@ if __name__ == '__main__':
     
     # Convert to Numpy Array
     pix = np.array(img)
+    
+    if pix.shape[0] > 21: 
+        warnings.warn("Your input text will generate an qmoji larger than 21x21.")    
     
     # Convert to UTF8 emojis
     out = []
