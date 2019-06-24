@@ -13,9 +13,10 @@ Install package individually using `pip install [packagename]`
 Edit `main.py` line 29 to change your input. Execute using `python main.py`. Open `output.txt` for your qmoji.
 
 ## Testing?
-So far I've tested the output on the following apps, exclusively using the desktop/web-browser since phone screens cannot properly display emojis that are at least 21 characters in length.
+So far I've tested the output on the following apps, exclusively using the desktop/web-browser since phone screens cannot properly display emojis that are at least 21 characters wide.
 
-| Application  | Pastes correctly | Scannable by QR code reader | Max qmoji size |
-| :--          | :---:            | :---:                       | :---:          |
-| Whatsapp Web | ✔️                | ✔️                           | 21 x 21       |
-| Mattermost | ✔️                | ✖️                           | n/a      |
+| Application  | Pastes correctly | Scannable by QR code reader | Max qmoji size  |
+| :--          | :---:            | :---:                       | :---:           |
+| Whatsapp Web | ✔️               | ✔️                          | 21 x 21        |
+| Mattermost   | ✔️               | ✖️                          | n/a             |
+| Discord      | ✖️               | ✖️                          | ? x 10         |
