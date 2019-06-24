@@ -1,4 +1,4 @@
-# `py-qmoji` - 
+## `py-qmoji`
 A python script that converts strings to QR Code built using Emojis. The output can be copied & pasted into messaging apps and then scanned using a QR Code reader
 
 ## Why? 
@@ -14,5 +14,7 @@ Edit `main.py` line 29 to change your input. Execute using `python main.py`. Ope
 
 ## Testing?
 So far I've tested the output on the following apps, mostly using the desktop/webbrowser since phone screens cannot properly display emojis that at least 21 characters in length.
-| Application | Pastes correctly | Scannable by QR code reader | Max qmoji size |
-| WhatsApp Web | ✓ | ✓ | 21 x 21 |
+
+| Application  | Pastes correctly | Scannable by QR code reader | Max qmoji size |
+| :--          | :---:            | :---:                       | :---:          |
+| Whatsapp Web | ✓                | ✓                           | 21 x 21       |
