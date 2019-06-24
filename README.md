@@ -17,4 +17,5 @@ So far I've tested the output on the following apps, exclusively using the deskt
 
 | Application  | Pastes correctly | Scannable by QR code reader | Max qmoji size |
 | :--          | :---:            | :---:                       | :---:          |
-| Whatsapp Web | ✓                | ✓                           | 21 x 21       |
+| Whatsapp Web | ✔️                | ✔️                           | 21 x 21       |
+| Mattermost | ✔️                | ✖️                           | n/a      |
